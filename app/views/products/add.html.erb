@@ -1,0 +1,7 @@
+<h1> Add a product </h1>
+<p>
+  <%= form_for @product do |f| %>
+  <%= f.label :product.id %>
+  <%= f.text_field :product, %>
+  <%= f.submit "Add item" %>
+</p>
